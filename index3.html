@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let value = prompt('Type a number: ');
+
+    let check;
+    if (value > 0) {
+        check = 1;
+    } else if (value < 0){
+        check = 0;
+    } else {
+        check = 2;
+    }
+    switch (check) {
+        case(check = 1):
+            alert('1');
+            break;
+        case(check = 0):
+            alert('-1');
+            break;
+        default:
+        alert('0');
+    }
+</script>
+</body>
+</html>
